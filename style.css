@@ -1,0 +1,171 @@
+/* Selectors d'etiqueta generals */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+section {
+    padding: 25px 40px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-bottom: 6px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* Capçalera i navegació */
+header {
+    background-color: #0f2b48;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 20px 20px 20px;
+}
+
+header h1 {
+    margin: 0 0 5px 0;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+header p {
+    margin: 0 0 15px 0;
+    font-size: 14px;
+    color: #e0e0e0;
+}
+
+/* Selectors descendents per al menú */
+header nav a {
+    display: block;
+    width: 160px;
+    margin: 4px auto;
+    padding: 5px 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+header nav a.activo {
+    background-color: #30669c;
+}
+
+/* Efecte Hover */
+header nav a:hover {
+    color: #90caf9;
+}
+
+/* Imatge principal */
+.banner-img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+/* Selectors d'ID per a les seccions */
+#inicio {
+    background-color: #eaf3fa;
+}
+
+#inicio h2 {
+    color: #0f2b48;
+    border-bottom-color: #0f2b48;
+}
+
+#sobre-mi {
+    background-color: #ffffff;
+}
+
+#sobre-mi h2 {
+    color: #0f2b48;
+    border-bottom-color: #0f2b48;
+}
+
+#sobre-mi p {
+    margin-bottom: 12px;
+}
+
+#aficiones {
+    background-color: #fdf0f0;
+}
+
+#aficiones h2 {
+    color: #a81c1c;
+    border-bottom-color: #a81c1c;
+}
+
+/* Selectors de classe i descendents per a aficions */
+.box-aficion {
+    background-color: #ffffff;
+    border: 1px solid #e57373;
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+}
+
+#aficiones h3 {
+    color: #a81c1c;
+    font-size: 16px;
+    margin: 0 0 6px 0;
+    font-weight: bold;
+}
+
+#aficiones p {
+    color: #000000;
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Selectors de classe i descendents per a enllaços */
+#enlaces {
+    background-color: #ebf7ed;
+}
+
+#enlaces h2 {
+    color: #1b5e20;
+    border-bottom-color: #1b5e20;
+}
+
+.box-enlace {
+    background-color: #ffffff;
+    border: 1px solid #81c784;
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin-bottom: 14px;
+}
+
+#enlaces a {
+    color: #1b5e20;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#enlaces p {
+    color: #333333;
+    margin: 6px 0 0 0;
+    font-size: 14px;
+}
+
+/* Peu de pàgina */
+footer {
+    background-color: #0f2b48;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 13px;
+}
